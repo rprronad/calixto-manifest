@@ -1,4 +1,14 @@
 <!-- XML declaration with all parameters defined -->
-<? xml version = "1.0" encoding = "UTF-8" standalone = "no" ?>
+<?xml version = "1.0" encoding = "UTF-8"?>
+<manifest>
 
+  <!-- ---------------------remote server -------------------- -->
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto" />
 
+  
+  <project remote="yocto" name="meta-poky" path="source/poky" />
+  <project remote="yocto" name="meta-security" path="source/meta-security" />
+  <project remote="yocto" name="meta-vertualization" path="source/meta-vertualization" />
+  
+    
+</manifest>
