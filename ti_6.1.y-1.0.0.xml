@@ -1,15 +1,15 @@
-<!--------XML declaration with all parameters defined---------->
-<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-    <!------------------remote server--------------------------->
+    <!-- remote server -->
     <remote fetch="https://git.yoctoproject.org/git" name="yocto" />
     <remote fetch="https://github.com/eaglelinuxplatform" name="eagle" />
 
-    <!--------------------yocto project-------------------------->
+    <!-- yocto project -->
     <project name="poky" path="source/poky" remote="yocto" />
-    <project name="meta-calixto-ti" path="source/meta_calixto_ti" remote="eagle" upstream="cs-kirkstone">
-        <!---------added readme file-------->
+    <project name="meta-calixto-ti" path="source/meta_calixto_ti" remote="eagle" upstream="kirkstone">
+      	
+      	<!-- added readme file -->
         <linkfile dest="README" src="README"/>
     </project>
  
