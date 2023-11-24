@@ -1,2 +1,2 @@
 # calixto-manifest
-repo manifest files for calixto SOMs and SBCs
+Calixto-manifest is the repo to download the manifest files for calixto SOMs and SBCs. Each branch contains dedicated README files housing specific instructions.
