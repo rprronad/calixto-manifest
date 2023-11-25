@@ -7,7 +7,7 @@
 
   <!-- yocto project -->
   <project name="poky" path="source/poky" remote="yocto"/>
-  <project name="meta-calixto-ti" path="source/meta_calixto_ti" remote="eagle" upstream="kirkstone">
+  <project name="meta-calixto-ti" path="source/meta_calixto_ti" remote="eagle" revision="refs/heads/kirkstone" upstream="kirkstone">
       	
     <!-- added readme file -->
     <linkfile dest="README" src="README"/>
