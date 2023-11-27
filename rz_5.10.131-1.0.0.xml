@@ -1,0 +1,24 @@
+<? version="1.0" encoding="UTF-8" ?>
+<manifest>
+
+	<!-- default job's -->
+	<default revision="dunfell-23.0.14" sync-j="2"/>
+
+	<!-- remote server -->
+	<remote name="yocto" fetch="https://git.yoctoproject.org/poky"/>
+	<remote name="oe" fetch="https://openembedded.org/meta-openembedded"/>
+	<remote name="renesas" fetch="https://github.com/renesas-rz/meta-renesas.git"/>
+	<remote name="gpl" fetch="https://git.yoctoproject.org/meta-gplv2"/>
+	<remote name="qt5" fetch="https://github.com/meta-qt5/meta-qt5.git"/>
+
+	<!-- yocto project -->
+	<project name="poky" path="source" remote="yocto" upstream="dunfell-23.0.14"/>
+	<project name="oe" path="source" remote="oe" revision="ec978232732edbdd875ac367b5a9c04b881f2e19" upstream="dunfell-23.0.14"/>
+	<project name="gpl" path="source" remote="gpl" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" upstream="dunfell-23.0.14"/> 
+	<project name="qt5" path="source" remote="qt5" revision="c1b0c9f546289b1592d7a895640de103723a0305" upstream="dunfell-23.0.14"/>
+	<project name="renesas" path="source" remote="renesas" upstream="dunfell"/>
+
+</manifest>
+
+
+
