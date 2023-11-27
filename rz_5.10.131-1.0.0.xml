@@ -12,11 +12,11 @@
   <remote name="qt5" fetch="https://github.com/meta-qt5/meta-qt5.git"/>
 
   <!-- yocto project -->
-  <project name="poky" path="source/poky" remote="yocto" upstream="dunfell"/>
+  <project name="poky" path="source/poky" remote="yocto"i/>
   <project name="oe" path="source/oe" remote="oe" revision="refs/heads/dunfell" upstream="dunfell"/>
   <project name="gpl" path="source/gpl" remote="gpl" upstream="dunfell"/> 
   <project name="qt5" path="source/qt5" remote="qt5" revision="refs/heads/dunfell" upstream="dunfell"/>
-  <project name="renesas" path="source/renesas" remote="renesas" upstream="dunfell/rz"/>
+  <project name="meta-renesas" path="source/renesas" remote="renesas" upstream="dunfell/rz"/>
 
 </manifest>
 
