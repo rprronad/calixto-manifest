@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- default job's -->
-  <default revision="dunfell/rz" sync-j="2"/>
+  <default revision="dunfell" sync-j="2"/>
 
   <!-- remote server -->
   <remote name="yocto" fetch="https://git.yoctoproject.org/poky"/>
