@@ -1,0 +1,7 @@
+<!-- first line of xml file: <?xml version="1.0" encoding="UTF-8"?> -->
+<!-- root element of repo tool: manifest -->
+  <!-- default revision="<branch name>" sync-j="<number of jobs>"/ -->
+  <!-- remote server -->
+  <!-- yocto project -->
+    <!-- added README file -->  
+<!-- close the root element of repo tool -->
