@@ -5,16 +5,16 @@
   <default sync-j="2"/>
 
   <!-- remote server -->
-  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
-  <remote fetch="https://git.openembedded.org" name="oe" />
+  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="git://git.openembedded.org" name="oe" />
   <remote fetch="https://github.com/renesas-rz" name="renesas" />  
   <remote fetch="https://github.com/meta-qt5" name="qt5" />
 
   <!-- yocto project -->
   <project name="poky" path="source/poky" remote="yocto" revision="dunfell"/>
-  <project name="meta-openembedded" path="source/meta-openembedded" remote="oe"/>
+  <project name="meta-openembedded" path="source/meta-openembedded" remote="oe" />
   <project name="meta-qt5" path="source/meta-qt5" remote="qt5" revision="dunfell"/>
-  <project name="meta-renesas" path="source/meta-renesas" remote="renesas" revision="refs/heads/dunfell/rz"/>
+  <project name="meta-renesas" path="source/meta-renesas" remote="renesas" revision="BSP-3.0.0"/>
 
 </manifest>
 
