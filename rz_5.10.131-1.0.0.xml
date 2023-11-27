@@ -13,9 +13,9 @@
 
   <!-- yocto project -->
   <project name="poky" path="source/poky" remote="yocto" upstream="dunfell"/>
-  <project name="oe" path="source/oe" remote="oe" revision="ec978232732edbdd875ac367b5a9c04b881f2e19" upstream="dunfell"/>
-  <project name="gpl" path="source/gpl" remote="gpl" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" upstream="dunfell"/> 
-  <project name="qt5" path="source/qt5" remote="qt5" revision="c1b0c9f546289b1592d7a895640de103723a0305" upstream="dunfell"/>
+  <project name="oe" path="source/oe" remote="oe" revision="refs/heads/dunfell" upstream="dunfell"/>
+  <project name="gpl" path="source/gpl" remote="gpl" revision="refs/heads/dunfell" upstream="dunfell"/> 
+  <project name="qt5" path="source/qt5" remote="qt5" revision="refs/heads/dunfell" upstream="dunfell"/>
   <project name="renesas" path="source/renesas" remote="renesas" upstream="dunfell/rz"/>
 
 </manifest>
