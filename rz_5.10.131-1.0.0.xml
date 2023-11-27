@@ -5,18 +5,16 @@
   <default revision="dunfell" sync-j="2"/>
 
   <!-- remote server -->
-  <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
-  <remote name="oe" fetch="https://openembedded.org/meta-openembedded"/>
-  <remote name="renesas" fetch="https://github.com/renesas-rz/meta-renesas"/>
-  <remote name="gpl" fetch="https://git.yoctoproject.org/meta-gplv2"/>
-  <remote name="qt5" fetch="https://github.com/meta-qt5"/>
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://openembedded.org/meta-openembedded" name="oe" />
+  <remote fetch="https://github.com/renesas-rz/meta-renesas" name="renesas" />  
+  <remote fetch="https://github.com/meta-qt5" name="qt5" />
 
   <!-- yocto project -->
   <project name="poky" path="source/poky" remote="yocto"/>
-  <project name="meta-openembedded" path="source/meta-openembedded" remote="oe" upstream="dunfell"/>
-  <project name="meta-gplv2" path="source/meta-gplv2" remote="gpl" upstream="dunfell"/> 
-  <project name="meta-qt5" path="source/meta-qt5" remote="qt5" upstream="dunfell"/>
-  <project name="meta-renesas" path="source/meta-renesas" remote="renesas" upstream="dunfell/rz"/>
+  <project name="meta-openembedded" path="source/meta-openembedded" remote="oe"/>
+  <project name="meta-qt5" path="source/meta-qt5" remote="qt5"/>
+  <project name="meta-renesas" path="source/meta-renesas" remote="renesas"/>
 
 </manifest>
 
