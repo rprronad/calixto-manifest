@@ -11,7 +11,7 @@
   <remote fetch="https://github.com/meta-qt5" name="qt5" />
 
   <!-- yocto project -->
-  <project name="poky" path="source/poky" remote="yocto"/>
+  <project name="poky" path="source/poky" remote="yocto" revision="dunfell"/>
   <project name="meta-openembedded" path="source/meta-openembedded" remote="oe"/>
   <project name="meta-qt5" path="source/meta-qt5" remote="qt5"/>
   <project name="meta-renesas" path="source/meta-renesas" remote="renesas"/>
