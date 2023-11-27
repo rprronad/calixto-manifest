@@ -9,13 +9,13 @@
   <remote name="oe" fetch="https://openembedded.org/meta-openembedded"/>
   <remote name="renesas" fetch="https://github.com/renesas-rz/meta-renesas"/>
   <remote name="gpl" fetch="https://git.yoctoproject.org/meta-gplv2"/>
-  <remote name="qt5" fetch="https://github.com/meta-qt5/meta-qt5"/>
+  <remote name="qt5" fetch="https://github.com/meta-qt5"/>
 
   <!-- yocto project -->
   <project name="poky" path="source/poky" remote="yocto"/>
-  <project name="oe" path="source/oe" remote="oe" upstream="dunfell"/>
-  <project name="gpl" path="source/gpl" remote="gpl" upstream="dunfell"/> 
-  <project name="qt5" path="source/qt5" remote="qt5" upstream="dunfell"/>
+  <project name="meta-openembedded" path="source/meta-openembedded" remote="oe" upstream="dunfell"/>
+  <project name="meta-gplv2" path="source/meta-gplv2" remote="gpl" upstream="dunfell"/> 
+  <project name="meta-qt5" path="source/meta-qt5" remote="qt5" upstream="dunfell"/>
   <project name="meta-renesas" path="source/meta-renesas" remote="renesas" upstream="dunfell/rz"/>
 
 </manifest>
