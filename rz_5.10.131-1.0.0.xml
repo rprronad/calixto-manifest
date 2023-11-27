@@ -5,7 +5,7 @@
   <default revision="dunfell" sync-j="2"/>
 
   <!-- remote server -->
-  <remote name="yocto" fetch="https://git.yoctoproject.org/poky"/>
+  <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
   <remote name="oe" fetch="https://openembedded.org/meta-openembedded"/>
   <remote name="renesas" fetch="https://github.com/renesas-rz/meta-renesas"/>
   <remote name="gpl" fetch="https://git.yoctoproject.org/meta-gplv2"/>
