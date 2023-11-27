@@ -1,1 +1,10 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <default revision="kirkstone" sync-j="2"/>
+  
+  <!-- remote server -->
+  <!-- yocto project -->
+    <!-- added readme file -->
+  
+</manifest>
