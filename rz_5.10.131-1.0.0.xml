@@ -13,7 +13,7 @@
   <!-- yocto project -->
   <project name="poky" path="source/poky" remote="yocto" revision="dunfell"/>
   <project name="meta-openembedded" path="source/meta-openembedded" remote="oe" revision="dunfell"/>
-  <project name="meta-qt5" path="source/meta-qt5" remote="qt5"/>
+  <project name="meta-qt5" path="source/meta-qt5" remote="qt5" revision="dunfell"/>
   <project name="meta-renesas" path="source/meta-renesas" remote="renesas"/>
 
 </manifest>
