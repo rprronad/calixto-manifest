@@ -6,8 +6,8 @@
 
   <!-- remote server -->
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
-  <remote fetch="https://openembedded.org/meta-openembedded" name="oe" />
-  <remote fetch="https://github.com/renesas-rz/meta-renesas" name="renesas" />  
+  <remote fetch="https://openembedded.org" name="oe" />
+  <remote fetch="https://github.com/renesas-rz" name="renesas" />  
   <remote fetch="https://github.com/meta-qt5" name="qt5" />
 
   <!-- yocto project -->
