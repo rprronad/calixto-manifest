@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <manifest>
-	
+
   <!-- default job's -->
-  <default revision="dunfell-23.0.14" sync-j="2"/>
+	<default revision="dunfell/rz" sync-j="2"/>
 
   <!-- remote server -->
   <remote name="yocto" fetch="https://git.yoctoproject.org/poky"/>
@@ -12,12 +12,12 @@
   <remote name="qt5" fetch="https://github.com/meta-qt5/meta-qt5.git"/>
 
   <!-- yocto project -->
-  <project name="poky" path="source/poky" remote="yocto" upstream="dunfell-23.0.14"/>
-  <project name="oe" path="source/oe" remote="oe" revision="ec978232732edbdd875ac367b5a9c04b881f2e19" upstream="dunfell-23.0.14"/>
-  <project name="gpl" path="source/gpl" remote="gpl" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" upstream="dunfell-23.0.14"/> 
-  <project name="qt5" path="source/qt5" remote="qt5" revision="c1b0c9f546289b1592d7a895640de103723a0305" upstream="dunfell-23.0.14"/>
-  <project name="renesas" path="source/renesas" remote="renesas" upstream="dunfell"/>
-	
+  <project name="poky" path="source" remote="yocto" upstream="dunfell"/>
+  <project name="oe" path="source" remote="oe" revision="ec978232732edbdd875ac367b5a9c04b881f2e19" upstream="dunfell"/>
+  <project name="gpl" path="source" remote="gpl" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" upstream="dunfell"/> 
+  <project name="qt5" path="source" remote="qt5" revision="c1b0c9f546289b1592d7a895640de103723a0305" upstream="dunfell"/>
+  <project name="renesas" path="source" remote="renesas" upstream="dunfell/rz"/>
+
 </manifest>
 
 
